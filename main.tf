@@ -1,6 +1,6 @@
 provider "google" {
 version = "3.5.0"
-credentials = file("/home/terraform/creds")
+credentials = file("/home/terraform/creds/service-account.json")
 project = "ardent-gate-382909"
 region = "us-east1"
 zone = "us-east1-d"
